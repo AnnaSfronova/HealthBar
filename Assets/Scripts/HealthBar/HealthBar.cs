@@ -6,7 +6,12 @@ public abstract class HealthBar : MonoBehaviour
 
     protected int _maxHealth;
 
-    private void OnEnable()
+    private void Awake()
+    {
+        _maxHealth = _health.MaxValue;
+    }
+
+    protected void OnEnable()
     {
         _health.Changed += PrintHealth;
     }
@@ -16,10 +21,5 @@ public abstract class HealthBar : MonoBehaviour
         _health.Changed -= PrintHealth;
     }
 
-    private void Awake()
-    {
-        _maxHealth = _health.MaxValue;
-    }
-
-    public virtual void PrintHealth(int health) { }
+    protected virtual void PrintHealth(int health) { }
 }

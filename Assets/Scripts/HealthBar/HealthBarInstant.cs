@@ -5,13 +5,15 @@ public class HealthBarInstant : HealthBar
 {
     [SerializeField] private Slider _slider;
 
-    private void Start()
+    private new void OnEnable()
     {
+        base.OnEnable();
+
         _slider.maxValue = _maxHealth;
         _slider.value = _maxHealth;
     }
 
-    public override void PrintHealth(int health)
+    protected override void PrintHealth(int health)
     {
         _slider.value = health;
     }
