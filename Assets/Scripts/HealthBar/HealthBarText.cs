@@ -9,11 +9,11 @@ public class HealthBarText : HealthBar
     {
         base.OnEnable();
 
-        PrintHealth(_maxHealth);
+        PrintHealth(Health.MaxValue);
     }
 
     protected override void PrintHealth(int health)
     {
-        _text.text = $"{health} / {_maxHealth}";
+        _text.text = $"{health} / {Health.MaxValue}";
     }
 }

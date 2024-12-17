@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68f0f66de0dc0b84c9b4a7d8f573c23d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 1856726108}
+  Health: {fileID: 1856726108}
   _button: {fileID: 177230415}
 --- !u!1 &446678650
 GameObject:
@@ -768,7 +768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f741e9755ba8e0469d509523f39d8ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 1856726108}
+  Health: {fileID: 1856726108}
   _button: {fileID: 651322372}
 --- !u!1 &670795399
 GameObject:
@@ -1001,7 +1001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c3b867cbb196b478bd6cc1638ae71d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 1856726108}
+  Health: {fileID: 1856726108}
   _text: {fileID: 1463988072}
 --- !u!1 &1288919464
 GameObject:
@@ -1636,7 +1636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a47fdb038612bbc4a9bcc9a1d991f53f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 1856726108}
+  Health: {fileID: 1856726108}
   _slider: {fileID: 1878797011}
 --- !u!1 &1895480995
 GameObject:
@@ -1689,7 +1689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c77d795bcfa727448bc900b36b3ee743, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 1856726108}
+  Health: {fileID: 1856726108}
   _slider: {fileID: 1895480998}
 --- !u!114 &1895480998
 MonoBehaviour:

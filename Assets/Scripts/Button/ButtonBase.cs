@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class ButtonBase : MonoBehaviour
 {
-    [SerializeField] protected Health _health;
+    [SerializeField] protected Health Health;
     [SerializeField] private Button _button;
 
     private void OnEnable()

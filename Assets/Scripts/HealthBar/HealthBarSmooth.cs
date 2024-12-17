@@ -13,8 +13,8 @@ public class HealthBarSmooth : HealthBar
     {
         base.OnEnable();
 
-        _slider.maxValue = _maxHealth;
-        _slider.value = _maxHealth;
+        _slider.maxValue = Health.MaxValue;
+        _slider.value = Health.MaxValue;
     }
 
     protected override void PrintHealth(int health)
